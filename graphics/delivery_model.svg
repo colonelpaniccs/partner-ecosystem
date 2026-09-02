@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1020" viewBox="0 0 1240 1020" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <rect width="1240" height="1020" fill="#FEFAF3"/>
+  <defs>
+    <marker id="ar4d" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 z" fill="#6B625C"/>
+    </marker>
+    <clipPath id="clipSI"><rect x="50" y="140" width="1140" height="208" rx="16"/></clipPath>
+    <clipPath id="clipCO"><rect x="50" y="404" width="1140" height="510" rx="16"/></clipPath>
+    <clipPath id="clipMP"><rect x="630" y="490" width="530" height="172" rx="12"/></clipPath>
+    <clipPath id="clipVI"><rect x="355" y="682" width="530" height="210" rx="12"/></clipPath>
+    <clipPath id="clipLI"><rect x="50" y="924" width="1140" height="66" rx="12"/></clipPath>
+  </defs>
+
+  <!-- Header -->
+  <text x="50" y="58" font-size="32" font-weight="700" fill="#1C1816" dominant-baseline="middle">Delivery Composition</text>
+  <line x1="480" y1="40" x2="480" y2="76" stroke="#E4DED8" stroke-width="2"/>
+  <text x="508" y="58" font-size="19" fill="#6B625C" dominant-baseline="middle">Selecting the right partner for the job</text>
+
+  <!-- LAYER 1: SELECTION INPUTS -->
+  <rect x="50" y="140" width="1140" height="208" rx="16" fill="#FFFFFF" stroke="#E4DED8"/>
+  <rect x="50" y="140" width="1140" height="5" fill="#7BAFD4" clip-path="url(#clipSI)"/>
+  <text x="80" y="186" font-size="12" font-weight="700" letter-spacing="2.4" fill="#7BAFD4">SELECTION INPUTS</text>
+  <text x="1160" y="179" font-size="9" font-weight="700" letter-spacing="0.8" fill="#A79E97" text-anchor="end">DETERMINES COMPOSITION</text>
+  <line x1="80" y1="202" x2="1160" y2="202" stroke="#E4DED8"/>
+
+  <rect x="80" y="222" width="208" height="96" rx="12" fill="#E4F0F7"/>
+  <text x="100" y="248" font-size="14" font-weight="700" fill="#1C1816">Vertical fit</text>
+  <text x="100" y="266" font-size="10" fill="#6B625C">Delivery experience in</text>
+  <text x="100" y="282" font-size="10" fill="#6B625C">the client's industry?</text>
+
+  <rect x="298" y="222" width="208" height="96" rx="12" fill="#E8F3EA"/>
+  <text x="318" y="248" font-size="14" font-weight="700" fill="#1C1816">Technology fit</text>
+  <text x="318" y="266" font-size="10" fill="#6B625C">Does the partner know the</text>
+  <text x="318" y="282" font-size="10" fill="#6B625C">client's technology stack?</text>
+
+  <rect x="516" y="222" width="208" height="96" rx="12" fill="#FDF5EE"/>
+  <text x="536" y="248" font-size="14" font-weight="700" fill="#1C1816">Delivery capacity</text>
+  <text x="536" y="266" font-size="10" fill="#6B625C">Does this partner have</text>
+  <text x="536" y="282" font-size="10" fill="#6B625C">capacity, or are they</text>
+  <text x="536" y="298" font-size="10" fill="#6B625C">committed elsewhere?</text>
+
+  <rect x="734" y="222" width="208" height="96" rx="12" fill="#EDE8F5"/>
+  <text x="754" y="248" font-size="14" font-weight="700" fill="#1C1816">Geography</text>
+  <text x="754" y="266" font-size="10" fill="#6B625C">Where is this partner</text>
+  <text x="754" y="282" font-size="10" fill="#6B625C">relative to the client?</text>
+  <text x="754" y="298" font-size="10" fill="#6B625C">Can they be in the room?</text>
+
+  <rect x="952" y="222" width="208" height="96" rx="12" fill="#E4F0F7"/>
+  <text x="972" y="248" font-size="14" font-weight="700" fill="#1C1816">Deal type</text>
+  <text x="972" y="266" font-size="10" fill="#6B625C">What does this deal require:</text>
+  <text x="972" y="282" font-size="10" fill="#6B625C">one partner, split delivery,</text>
+  <text x="972" y="298" font-size="10" fill="#6B625C">or cross-geography reach?</text>
+
+  <!-- Dashed arrows -->
+  <path d="M345,348 L345,396" stroke="#6B625C" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar4d)"/>
+  <path d="M895,348 L895,396" stroke="#6B625C" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#ar4d)"/>
+
+  <!-- LAYER 2: COMPOSITION -->
+  <rect x="50" y="404" width="1140" height="510" rx="16" fill="#FFFFFF" stroke="#E4DED8"/>
+  <rect x="50" y="404" width="1140" height="5" fill="#89bd93" clip-path="url(#clipCO)"/>
+  <text x="80" y="450" font-size="12" font-weight="700" letter-spacing="2.4" fill="#89bd93">COMPOSITION</text>
+  <line x1="80" y1="466" x2="1160" y2="466" stroke="#E4DED8"/>
+
+  <!-- STANDARD -->
+  <rect x="80" y="490" width="530" height="172" rx="12" fill="#E8F3EA"/>
+  <text x="104" y="522" font-size="10" font-weight="700" letter-spacing="1.8" fill="#6B625C">STANDARD</text>
+  <rect x="104" y="536" width="482" height="38" rx="10" fill="#FFFFFF"/>
+  <text x="345" y="560" font-size="13.5" font-weight="700" fill="#1C1816" text-anchor="middle">Single partner</text>
+  <text x="104" y="596" font-size="11.5" fill="#6B625C">A single partner is responsible for delivery, owns the engagement,</text>
+  <text x="104" y="614" font-size="11.5" fill="#6B625C">sets their own services rates, and carries full liability.</text>
+
+  <!-- MULTI-PARTNER DELIVERY -->
+  <rect x="630" y="490" width="530" height="172" rx="12" fill="#EAF3F9"/>
+  <rect x="630" y="490" width="530" height="5" fill="#7BAFD4" clip-path="url(#clipMP)"/>
+  <text x="654" y="522" font-size="10" font-weight="700" letter-spacing="1.8" fill="#6B625C">MULTI-PARTNER DELIVERY</text>
+  <rect x="654" y="536" width="482" height="38" rx="10" fill="#FFFFFF"/>
+  <text x="895" y="560" font-size="13.5" font-weight="700" fill="#1C1816" text-anchor="middle">Split delivery</text>
+  <text x="654" y="596" font-size="11.5" fill="#6B625C">Delivery is split across more than one partner.</text>
+  <text x="654" y="614" font-size="11.5" fill="#6B625C">Used where a single partner's scope or capacity may fall short.</text>
+
+  <!-- VENDOR INSURANCE -->
+  <rect x="355" y="682" width="530" height="210" rx="12" fill="#FEF4EE" stroke="#E4DED8"/>
+  <rect x="355" y="682" width="530" height="5" fill="#ef9871" clip-path="url(#clipVI)"/>
+  <text x="379" y="714" font-size="10" font-weight="700" letter-spacing="1.8" fill="#6B625C">VENDOR INSURANCE</text>
+  <text x="850" y="714" font-size="9" font-weight="700" letter-spacing="0.8" fill="#A79E97" text-anchor="end">OPTIONAL · EITHER PATH</text>
+  <rect x="379" y="728" width="482" height="34" rx="10" fill="#ef9871"/>
+  <text x="620" y="750" font-size="13.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Backed by the vendor</text>
+  <text x="379" y="782" font-size="11.5" fill="#6B625C">Vendor Insurance brings the vendor into the engagement as an active</text>
+  <text x="379" y="800" font-size="11.5" fill="#6B625C">governance participant. The choice to invoke it may come from the partner,</text>
+  <text x="379" y="818" font-size="11.5" fill="#6B625C">the client, or both; a partner entering a new vertical or managing a</text>
+  <text x="379" y="836" font-size="11.5" fill="#6B625C">complex scope may seek it, and a client may request it as an additional</text>
+  <text x="379" y="854" font-size="11.5" fill="#6B625C">assurance signal. Coverage spans scope, schedule, concept, and delivery</text>
+  <text x="379" y="872" font-size="11.5" fill="#6B625C">model guidance, with a QA review post implementation.</text>
+
+  <!-- LIABILITY -->
+  <rect x="50" y="924" width="1140" height="66" rx="12" fill="#F2EFF8" stroke="#E4DED8"/>
+  <rect x="50" y="924" width="6" height="66" rx="3" fill="#b09bd6" clip-path="url(#clipLI)"/>
+  <text x="84" y="948" font-size="10" font-weight="700" letter-spacing="1.8" fill="#b09bd6">LIABILITY</text>
+  <text x="84" y="970" font-size="11.5" fill="#6B625C">The partner carries liability for the engagement; Vendor Insurance adds a governance layer backed by the vendor.</text>
+</svg>

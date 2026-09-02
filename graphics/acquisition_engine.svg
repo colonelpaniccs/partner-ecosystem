@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <rect width="1400" height="800" fill="#FEFAF3"/>
+  <defs>
+    <marker id="ar" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 z" fill="#1C1816"/>
+    </marker>
+  </defs>
+
+  <text x="40" y="58" font-size="32" font-weight="700" fill="#1C1816" dominant-baseline="middle">Acquisition Engine</text>
+  <line x1="390" y1="40" x2="390" y2="76" stroke="#E4DED8" stroke-width="2"/>
+  <text x="418" y="58" font-size="19" fill="#6B625C" dominant-baseline="middle">Prospect to Partner</text>
+
+  <!-- 1 TARGET LIST (terminal green) -->
+  <rect x="40" y="140" width="232" height="470" rx="16" fill="#89bd93"/>
+  <path d="M40,145 L272,145 L272,594 A16,16 0 0,1 256,610 L56,610 A16,16 0 0,1 40,594 Z" fill="#FFFFFF"/>
+  <rect x="40" y="140" width="232" height="470" rx="16" fill="none" stroke="#E4DED8"/>
+  <text x="156" y="186" font-size="14" font-weight="700" fill="#1C1816" text-anchor="middle">1. TARGET LIST</text>
+
+  <circle cx="156" cy="238" r="26" fill="#E8F3EA"/>
+  <circle cx="156" cy="238" r="20" fill="none" stroke="#89bd93" stroke-width="2"/>
+  <circle cx="156" cy="238" r="13" fill="none" stroke="#89bd93" stroke-width="2"/>
+  <circle cx="156" cy="238" r="5" fill="#89bd93"/>
+
+  <rect x="66" y="288" width="180" height="40" rx="9" fill="#E8F3EA"/>
+  <text x="156" y="313" font-size="12" fill="#1C1816" text-anchor="middle">Fifty people or more</text>
+  <rect x="66" y="342" width="180" height="40" rx="9" fill="#E8F3EA"/>
+  <text x="156" y="367" font-size="12" fill="#1C1816" text-anchor="middle">Competitor practice</text>
+  <rect x="66" y="396" width="180" height="40" rx="9" fill="#E8F3EA"/>
+  <text x="156" y="421" font-size="12" fill="#1C1816" text-anchor="middle">Hands-on CRM experience</text>
+  <rect x="66" y="450" width="180" height="40" rx="9" fill="#E8F3EA"/>
+  <text x="156" y="475" font-size="12" fill="#1C1816" text-anchor="middle">Development in .NET and C#</text>
+
+  <line x1="66" y1="506" x2="246" y2="506" stroke="#E4DED8"/>
+  <text x="66" y="530" font-size="10.5" fill="#6B625C">Targets are segmented by</text>
+  <text x="66" y="548" font-size="10.5" fill="#6B625C">incumbent vendor, size band, and</text>
+  <text x="66" y="566" font-size="10.5" fill="#6B625C">region before outreach campaigns.</text>
+
+  <path d="M276,375 L308,375" stroke="#1C1816" stroke-width="1.5" marker-end="url(#ar)"/>
+
+  <!-- 2 PERSONAS -->
+  <rect x="312" y="140" width="232" height="470" rx="16" fill="#FFFFFF" stroke="#E4DED8"/>
+  <text x="428" y="186" font-size="14" font-weight="700" fill="#1C1816" text-anchor="middle">2. PERSONAS</text>
+  <circle cx="428" cy="238" r="26" fill="#EDE8F5"/>
+  <circle cx="422" cy="234" r="6" fill="none" stroke="#6B625C" stroke-width="2.5"/>
+  <circle cx="434" cy="244" r="6" fill="none" stroke="#6B625C" stroke-width="2.5"/>
+
+  <rect x="338" y="288" width="180" height="98" rx="10" fill="#EDE8F5"/>
+  <text x="428" y="314" font-size="9" letter-spacing="1.4" fill="#b09bd6" text-anchor="middle">SALES-LED</text>
+  <line x1="354" y1="322" x2="502" y2="322" stroke="#b09bd6" stroke-width="0.75" opacity="0.6"/>
+  <text x="428" y="342" font-size="11" fill="#1C1816" text-anchor="middle">VP Alliances · VP Business Dev</text>
+  <text x="428" y="360" font-size="11" fill="#1C1816" text-anchor="middle">VP Sales · CRO · CEO</text>
+  <text x="428" y="404" font-size="10.5" fill="#6B625C" text-anchor="middle">Opens on commercial terms.</text>
+
+  <rect x="338" y="432" width="180" height="134" rx="10" fill="#E4F0F7"/>
+  <text x="428" y="458" font-size="9" letter-spacing="1.4" fill="#7BAFD4" text-anchor="middle">SERVICES-LED</text>
+  <line x1="354" y1="466" x2="502" y2="466" stroke="#7BAFD4" stroke-width="0.75" opacity="0.6"/>
+  <text x="428" y="486" font-size="11" fill="#1C1816" text-anchor="middle">VP Professional Services</text>
+  <text x="428" y="504" font-size="11" fill="#1C1816" text-anchor="middle">CRM Practice Leads</text>
+  <text x="428" y="522" font-size="11" fill="#1C1816" text-anchor="middle">Delivery Manager · VP Ops</text>
+  <text x="428" y="540" font-size="11" fill="#1C1816" text-anchor="middle">CTO · COO · CEO</text>
+  <text x="428" y="586" font-size="10.5" fill="#6B625C" text-anchor="middle">Opens on delivery work.</text>
+
+  <path d="M548,375 L580,375" stroke="#1C1816" stroke-width="1.5" marker-end="url(#ar)"/>
+
+  <!-- 3 MESSAGE -->
+  <rect x="584" y="140" width="232" height="470" rx="16" fill="#FFFFFF" stroke="#E4DED8"/>
+  <text x="700" y="186" font-size="14" font-weight="700" fill="#1C1816" text-anchor="middle">3. MESSAGE</text>
+  <circle cx="700" cy="238" r="26" fill="#E4F0F7"/>
+  <path d="M691,232 h18 M691,238 h18 M691,244 h11" stroke="#6B625C" stroke-width="2.5" stroke-linecap="round"/>
+
+  <text x="700" y="288" font-size="9.5" letter-spacing="1.4" fill="#89bd93" text-anchor="middle">ENTERPRISE PLATFORMS</text>
+  <rect x="610" y="296" width="180" height="52" rx="9" fill="#E8F3EA"/>
+  <text x="700" y="318" font-size="12" fill="#1C1816" text-anchor="middle">Competitive differentiation</text>
+  <text x="700" y="336" font-size="12" fill="#1C1816" text-anchor="middle">and protected pipeline</text>
+
+  <text x="700" y="368" font-size="9.5" letter-spacing="1.4" fill="#7BAFD4" text-anchor="middle">UPMARKET PLATFORMS</text>
+  <rect x="610" y="376" width="180" height="52" rx="9" fill="#E4F0F7"/>
+  <text x="700" y="398" font-size="12" fill="#1C1816" text-anchor="middle">Migration ROI and</text>
+  <text x="700" y="416" font-size="12" fill="#1C1816" text-anchor="middle">a new market segment</text>
+
+  <text x="700" y="448" font-size="9.5" letter-spacing="1.4" fill="#ef9871" text-anchor="middle">LEGACY PLATFORMS</text>
+  <rect x="610" y="456" width="180" height="34" rx="9" fill="#FDF0E8"/>
+  <text x="700" y="478" font-size="12" fill="#1C1816" text-anchor="middle">Cloud modernization</text>
+
+  <line x1="610" y1="506" x2="790" y2="506" stroke="#E4DED8"/>
+  <text x="610" y="530" font-size="10.5" fill="#6B625C">Messaging adapts to each</text>
+  <text x="610" y="548" font-size="10.5" fill="#6B625C">partner profile.</text>
+
+  <path d="M820,375 L852,375" stroke="#1C1816" stroke-width="1.5" marker-end="url(#ar)"/>
+
+  <!-- 4 QUALIFICATION -->
+  <rect x="856" y="140" width="232" height="470" rx="16" fill="#FFFFFF" stroke="#E4DED8"/>
+  <text x="972" y="186" font-size="14" font-weight="700" fill="#1C1816" text-anchor="middle">4. QUALIFICATION</text>
+  <circle cx="972" cy="238" r="26" fill="#E8F3EA"/>
+  <path d="M962,238 l7,7 l13,-14" stroke="#6B625C" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="882" y="288" width="180" height="52" rx="9" fill="#E8F3EA"/>
+  <text x="898" y="310" font-size="12" font-weight="700" fill="#1C1816">Profile</text>
+  <text x="898" y="328" font-size="11" fill="#6B625C">Structure, footprint, reach</text>
+  <rect x="882" y="363" width="180" height="52" rx="9" fill="#E8F3EA"/>
+  <text x="898" y="385" font-size="12" font-weight="700" fill="#1C1816">Expertise</text>
+  <text x="898" y="403" font-size="11" fill="#6B625C">Practice, clients, lead model</text>
+  <rect x="882" y="438" width="180" height="52" rx="9" fill="#E8F3EA"/>
+  <text x="898" y="460" font-size="12" font-weight="700" fill="#1C1816">Goals</text>
+  <text x="898" y="478" font-size="11" fill="#6B625C">Certify, staff, co-invest</text>
+
+  <line x1="882" y1="506" x2="1062" y2="506" stroke="#E4DED8"/>
+  <text x="882" y="530" font-size="10.5" fill="#6B625C">Partners strong on the first two</text>
+  <text x="882" y="548" font-size="10.5" fill="#6B625C">categories and hedging on the third</text>
+  <text x="882" y="566" font-size="10.5" fill="#6B625C">sign and then go quiet.</text>
+
+  <path d="M1092,375 L1124,375" stroke="#1C1816" stroke-width="1.5" marker-end="url(#ar)"/>
+
+  <!-- 5 SIGNED (terminal terracotta) -->
+  <rect x="1128" y="140" width="232" height="470" rx="16" fill="#ef9871"/>
+  <path d="M1128,145 L1360,145 L1360,594 A16,16 0 0,1 1344,610 L1144,610 A16,16 0 0,1 1128,594 Z" fill="#FFFFFF"/>
+  <rect x="1128" y="140" width="232" height="470" rx="16" fill="none" stroke="#E4DED8"/>
+  <text x="1244" y="186" font-size="14" font-weight="700" fill="#1C1816" text-anchor="middle">5. SIGNED</text>
+  <circle cx="1244" cy="238" r="26" fill="#FDF0E8"/>
+  <path d="M1234,246 v-14 M1244,246 v-22 M1254,246 v-8" stroke="#ef9871" stroke-width="3" stroke-linecap="round"/>
+
+  <rect x="1154" y="288" width="180" height="40" rx="9" fill="#E8F3EA"/>
+  <text x="1244" y="313" font-size="12" fill="#1C1816" text-anchor="middle">Track and level set</text>
+  <rect x="1154" y="338" width="180" height="40" rx="9" fill="#ef9871"/>
+  <text x="1244" y="363" font-size="12.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">Partner agreement</text>
+  <rect x="1154" y="388" width="180" height="40" rx="9" fill="#E8F3EA"/>
+  <text x="1244" y="413" font-size="12" fill="#1C1816" text-anchor="middle">Certification booked</text>
+  <rect x="1154" y="438" width="180" height="52" rx="9" fill="#E8F3EA"/>
+  <text x="1244" y="460" font-size="12" fill="#1C1816" text-anchor="middle">First opportunities</text>
+  <text x="1244" y="478" font-size="12" fill="#1C1816" text-anchor="middle">registered</text>
+
+  <line x1="1154" y1="506" x2="1334" y2="506" stroke="#E4DED8"/>
+  <text x="1154" y="530" font-size="10.5" fill="#6B625C">Nothing before the agreement</text>
+  <text x="1154" y="548" font-size="10.5" fill="#6B625C">produces revenue. Return starts</text>
+  <text x="1154" y="566" font-size="10.5" fill="#6B625C">at the first prepaid package</text>
+  <text x="1154" y="584" font-size="10.5" fill="#6B625C">or license sold.</text>
+
+  <!-- Geography band -->
+  <rect x="40" y="638" width="1320" height="76" rx="16" fill="#EFEAE4"/>
+  <text x="72" y="668" font-size="10" font-weight="700" letter-spacing="1.8" fill="#6B625C">ONE PARTNER ECONOMICS MODEL</text>
+  <text x="72" y="694" font-size="12.5" fill="#6B625C">A single set of margin levels, tier thresholds, and registration terms applied consistently regardless of region or deal origin.</text>
+</svg>

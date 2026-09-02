@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="720" viewBox="0 0 1400 720" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <rect width="1400" height="720" fill="#FEFAF3"/>
+  <defs>
+    <marker id="ar2" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 z" fill="#1C1816"/>
+    </marker>
+  </defs>
+
+  <!-- Header -->
+  <text x="50" y="58" font-size="32" font-weight="700" fill="#1C1816" dominant-baseline="middle">Bootstrap Model</text>
+  <line x1="362" y1="40" x2="362" y2="76" stroke="#E4DED8" stroke-width="2"/>
+  <text x="390" y="58" font-size="19" fill="#6B625C" dominant-baseline="middle">Shared delivery increases channel capacity</text>
+
+  <!--
+    GRID TEMPLATE (all 4 cards)
+    Card:      y=150–550 (400px)
+    Title:     y=196
+    Icon zone: cy=252 (top y=224, bottom y=280)
+    Content:   y=300–462
+    Divider:   y=466
+    Footer:    y=484–510
+    Bottom pad: y=510–550 (40px)
+    Arrow tip: y=566  (16px below card bottom)
+    Loop base: y=582
+    Canvas:    720px
+  -->
+
+  <!-- ═══════════════════════════════════════════════
+       CARD 1 — TRAINING AND CERTIFICATION (terminal)
+       x=50, w=290
+  ════════════════════════════════════════════════ -->
+  <rect x="50" y="150" width="290" height="400" rx="16" fill="#89bd93"/>
+  <path d="M50,155 L340,155 L340,534 A16,16 0 0,1 324,550 L66,550 A16,16 0 0,1 50,534 Z" fill="#FFFFFF"/>
+  <rect x="50" y="150" width="290" height="400" rx="16" fill="none" stroke="#E4DED8"/>
+
+  <text x="195" y="196" font-size="13" font-weight="700" fill="#1C1816" text-anchor="middle">1. TRAINING AND CERTIFICATION</text>
+
+  <circle cx="195" cy="252" r="28" fill="#E8F3EA"/>
+  <path d="M185,252 l7,8 l14,-16" stroke="#6B625C" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="80" y="304" width="230" height="54" rx="9" fill="#E8F3EA"/>
+  <text x="195" y="326" font-size="11" fill="#1C1816" text-anchor="middle">Platform Administration</text>
+  <text x="195" y="344" font-size="11" fill="#1C1816" text-anchor="middle">and Customization</text>
+
+  <rect x="80" y="370" width="230" height="54" rx="9" fill="#E8F3EA"/>
+  <text x="195" y="397" font-size="11" fill="#1C1816" text-anchor="middle">Developer Certification</text>
+
+  <line x1="80" y1="462" x2="310" y2="462" stroke="#E4DED8"/>
+
+  <text x="195" y="487" font-size="11.5" fill="#6B625C" text-anchor="middle">Paid for out of the partner's</text>
+  <text x="195" y="505" font-size="11.5" fill="#6B625C" text-anchor="middle">own prepaid balance.</text>
+
+  <!-- Arrow 1 → 2 -->
+  <path d="M348,330 L376,330" stroke="#1C1816" stroke-width="1.5" marker-end="url(#ar2)"/>
+
+  <!-- ═══════════════════════════════════════════════
+       CARD 2 — FIRST IMPLEMENTATION
+       x=386, w=290
+  ════════════════════════════════════════════════ -->
+  <rect x="386" y="150" width="290" height="400" rx="16" fill="#FFFFFF" stroke="#E4DED8"/>
+
+  <text x="531" y="196" font-size="14" font-weight="700" fill="#1C1816" text-anchor="middle">2. FIRST IMPLEMENTATION</text>
+
+  <circle cx="531" cy="252" r="28" fill="#FDF0E8"/>
+  <path d="M519,262 v-16 M531,262 v-24 M543,262 v-10" stroke="#6B625C" stroke-width="3.2" stroke-linecap="round"/>
+
+  <rect x="416" y="304" width="230" height="54" rx="9" fill="#FDF0E8"/>
+  <text x="531" y="331" font-size="12.5" fill="#1C1816" text-anchor="middle">Live engagement, real client</text>
+
+  <rect x="416" y="370" width="230" height="54" rx="9" fill="#FDF0E8"/>
+  <text x="531" y="397" font-size="12.5" fill="#1C1816" text-anchor="middle">Structured handoff points</text>
+
+  <line x1="416" y1="462" x2="646" y2="462" stroke="#E4DED8"/>
+
+  <text x="531" y="487" font-size="11.5" fill="#6B625C" text-anchor="middle">The statement of work</text>
+  <text x="531" y="505" font-size="11.5" fill="#6B625C" text-anchor="middle">is split before kickoff.</text>
+
+  <!-- Arrow 2 → 3 -->
+  <path d="M684,330 L712,330" stroke="#1C1816" stroke-width="1.5" marker-end="url(#ar2)"/>
+
+  <!-- ═══════════════════════════════════════════════
+       CARD 3 — PAIRING
+       x=722, w=290
+  ════════════════════════════════════════════════ -->
+  <rect x="722" y="150" width="290" height="400" rx="16" fill="#FFFFFF" stroke="#E4DED8"/>
+
+  <text x="867" y="196" font-size="14" font-weight="700" fill="#1C1816" text-anchor="middle">3. PAIRING</text>
+
+  <circle cx="867" cy="252" r="28" fill="#EDE8F5"/>
+  <circle cx="858" cy="252" r="9" fill="none" stroke="#6B625C" stroke-width="2.6"/>
+  <circle cx="876" cy="252" r="9" fill="none" stroke="#6B625C" stroke-width="2.6"/>
+
+  <text x="867" y="302" font-size="9.5" letter-spacing="1.4" fill="#89bd93" text-anchor="middle">NEW PARTNER</text>
+  <rect x="752" y="310" width="230" height="54" rx="9" fill="#E8F3EA"/>
+  <text x="867" y="332" font-size="11.5" fill="#1C1816" text-anchor="middle">Runs configuration and</text>
+  <text x="867" y="350" font-size="11.5" fill="#1C1816" text-anchor="middle">client-facing delivery work</text>
+
+  <text x="867" y="382" font-size="9.5" letter-spacing="1.4" fill="#b09bd6" text-anchor="middle">EXPERIENCED TEAM</text>
+  <rect x="752" y="390" width="230" height="54" rx="9" fill="#EDE8F5"/>
+  <text x="867" y="412" font-size="11.5" fill="#1C1816" text-anchor="middle">Technical oversight,</text>
+  <text x="867" y="430" font-size="11.5" fill="#1C1816" text-anchor="middle">governance, and escalation</text>
+
+  <line x1="752" y1="462" x2="982" y2="462" stroke="#E4DED8"/>
+
+  <text x="867" y="487" font-size="11.5" fill="#6B625C" text-anchor="middle">Capability transfers through</text>
+  <text x="867" y="505" font-size="11.5" fill="#6B625C" text-anchor="middle">shared delivery.</text>
+
+  <!-- Arrow 3 → 4 -->
+  <path d="M1020,330 L1048,330" stroke="#1C1816" stroke-width="1.5" marker-end="url(#ar2)"/>
+
+  <!-- ═══════════════════════════════════════════════
+       CARD 4 — CAPABILITY TRANSFER (terminal)
+       x=1058, w=290
+  ════════════════════════════════════════════════ -->
+  <rect x="1058" y="150" width="290" height="400" rx="16" fill="#7BAFD4"/>
+  <path d="M1058,155 L1348,155 L1348,534 A16,16 0 0,1 1332,550 L1074,550 A16,16 0 0,1 1058,534 Z" fill="#FFFFFF"/>
+  <rect x="1058" y="150" width="290" height="400" rx="16" fill="none" stroke="#E4DED8"/>
+
+  <text x="1203" y="196" font-size="14" font-weight="700" fill="#1C1816" text-anchor="middle">4. CAPABILITY TRANSFER</text>
+
+  <circle cx="1203" cy="252" r="28" fill="#E4F0F7"/>
+  <path d="M1191,252 h22 M1205,244 l8,8 l-8,8" stroke="#7BAFD4" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="1088" y="304" width="230" height="62" rx="9" fill="#7BAFD4"/>
+  <text x="1203" y="330" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Becomes capable of</text>
+  <text x="1203" y="350" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">independent delivery</text>
+
+  <rect x="1088" y="380" width="230" height="44" rx="9" fill="#E4F0F7"/>
+  <text x="1203" y="407" font-size="12.5" fill="#1C1816" text-anchor="middle">Completes first service record</text>
+
+  <line x1="1088" y1="462" x2="1318" y2="462" stroke="#E4DED8"/>
+
+  <text x="1203" y="487" font-size="11.5" fill="#6B625C" text-anchor="middle">Partner enters the channel</text>
+  <text x="1203" y="505" font-size="11.5" fill="#6B625C" text-anchor="middle">ready to deliver independently.</text>
+
+  <!-- Loop back 4 → 3  (blue dashed, tip 16px below card bottom) -->
+  <path d="M1203,582 C1203,662 867,662 867,582"
+        stroke="#7BAFD4" stroke-width="2.5" fill="none" stroke-dasharray="7 6"/>
+  <polygon points="867,566 855,582 879,582" fill="#7BAFD4"/>
+</svg>

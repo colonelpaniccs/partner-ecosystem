@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="800" viewBox="0 0 1100 800" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <rect width="1100" height="800" fill="#FEFAF3"/>
+  <defs>
+    <marker id="ar3g" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#89bd93"/>
+    </marker>
+    <marker id="ar3b" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7BAFD4"/>
+    </marker>
+    <marker id="ar3t" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#ef9871"/>
+    </marker>
+    <marker id="ar3l" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b09bd6"/>
+    </marker>
+  </defs>
+
+  <!-- ── 1. NODE RECTS (drawn first so arrows paint on top) ──────────────── -->
+  <rect x="400" y="140" width="300" height="140" rx="16" fill="#FFFFFF" stroke="#E4DED8"/>
+  <rect x="720" y="370" width="300" height="140" rx="16" fill="#FFFFFF" stroke="#E4DED8"/>
+  <rect x="400" y="600" width="300" height="140" rx="16" fill="#FFFFFF" stroke="#E4DED8"/>
+  <rect x="80"  y="370" width="300" height="140" rx="16" fill="#FFFFFF" stroke="#E4DED8"/>
+
+  <!-- ── 2. REFERENCE PILL ──────────────────────────────────────────────── -->
+  <rect x="108" y="418" width="244" height="52" rx="10" fill="#b09bd6"/>
+
+  <!-- ── 3. HEADER ──────────────────────────────────────────────────────── -->
+  <text x="50"  y="58" font-size="32" font-weight="700" fill="#1C1816" dominant-baseline="middle">Partner Flywheel</text>
+  <line x1="395" y1="40" x2="395" y2="76" stroke="#E4DED8" stroke-width="2"/>
+  <text x="423" y="58" font-size="19" fill="#6B625C" dominant-baseline="middle">Recruitment to Reference</text>
+
+  <!-- ── 4. NODE TEXT ───────────────────────────────────────────────────── -->
+  <text x="550" y="170" font-size="11" font-weight="700" letter-spacing="2" fill="#89bd93" text-anchor="middle">RECRUITMENT</text>
+  <text x="550" y="200" font-size="13.5" fill="#1C1816" text-anchor="middle">Firms already working inside</text>
+  <text x="550" y="220" font-size="13.5" fill="#1C1816" text-anchor="middle">competitor ecosystems</text>
+
+  <text x="870" y="400" font-size="11" font-weight="700" letter-spacing="2" fill="#7BAFD4" text-anchor="middle">ENABLEMENT</text>
+  <text x="870" y="428" font-size="13.5" fill="#1C1816" text-anchor="middle">Structured onboarding across</text>
+  <text x="870" y="448" font-size="13.5" fill="#1C1816" text-anchor="middle">sales, certification, and delivery</text>
+
+  <text x="550" y="630" font-size="11" font-weight="700" letter-spacing="2" fill="#ef9871" text-anchor="middle">DELIVERY</text>
+  <text x="550" y="660" font-size="13.5" fill="#1C1816" text-anchor="middle">Prices and staffs independently</text>
+  <text x="550" y="680" font-size="13.5" fill="#1C1816" text-anchor="middle">Delivers on client engagements</text>
+
+  <text x="230" y="400" font-size="11" font-weight="700" letter-spacing="2" fill="#b09bd6" text-anchor="middle">REFERENCE</text>
+  <text x="230" y="438" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">Ramped, revenue-producing partners</text>
+  <text x="230" y="456" font-size="11" font-weight="700" fill="#FFFFFF" text-anchor="middle">with completed delivery projects</text>
+
+  <!-- ── 5. ARROWS (start and end at node edges — no tail crosses a node) ── -->
+  <path d="M700,210 C780,210 870,280 870,370"
+        stroke="#89bd93" stroke-width="2.5" fill="none" marker-end="url(#ar3g)"/>
+  <path d="M870,510 C870,590 790,670 700,670"
+        stroke="#7BAFD4" stroke-width="2.5" fill="none" marker-end="url(#ar3b)"/>
+  <path d="M400,670 C320,670 230,590 230,510"
+        stroke="#ef9871" stroke-width="2.5" fill="none" marker-end="url(#ar3t)"/>
+  <path d="M230,370 C230,290 320,210 400,210"
+        stroke="#b09bd6" stroke-width="2.5" fill="none" marker-end="url(#ar3l)"/>
+</svg>

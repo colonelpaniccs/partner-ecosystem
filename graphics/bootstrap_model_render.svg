@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="680" viewBox="0 0 1400 680" font-family="Inter, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <rect width="1400" height="680" fill="#FEFAF3"/>
+  <defs>
+    <marker id="ar2" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 z" fill="#1C1816"/>
+    </marker>
+  </defs>
+
+  <text x="50" y="60" font-size="32" font-weight="700" fill="#1C1816">Bootstrap Model</text>
+  <line x1="362" y1="40" x2="362" y2="76" stroke="#E4DED8" stroke-width="2"/>
+  <text x="390" y="60" font-size="19" fill="#6B625C">Shared delivery increases channel capacity</text>
+
+  <!-- 1 TRAINING AND CERTIFICATION (terminal) -->
+  <rect x="50" y="150" width="290" height="360" rx="16" fill="#89bd93"/>
+  <path d="M50,160 L340,160 L340,494 A16,16 0 0,1 324,510 L66,510 A16,16 0 0,1 50,494 Z" fill="#FFFFFF"/>
+  <rect x="50" y="150" width="290" height="360" rx="16" fill="none" stroke="#E4DED8"/>
+  <text x="80" y="196" font-size="13" font-weight="700" fill="#1C1816">1. TRAINING AND CERTIFICATION</text>
+  <circle cx="195" cy="252" r="28" fill="#E8F3EA"/>
+  <path d="M185,252 l7,8 l14,-16" stroke="#6B625C" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="80" y="300" width="230" height="52" rx="9" fill="#E8F3EA"/>
+  <text x="195" y="322" font-size="11" fill="#1C1816" text-anchor="middle">Platform Administration</text>
+  <text x="195" y="340" font-size="11" fill="#1C1816" text-anchor="middle">and Customization</text>
+  <rect x="80" y="360" width="230" height="36" rx="9" fill="#E8F3EA"/>
+  <text x="195" y="383" font-size="11" fill="#1C1816" text-anchor="middle">Developer Certification</text>
+  <line x1="80" y1="410" x2="310" y2="410" stroke="#E4DED8"/>
+  <text x="80" y="434" font-size="11.5" fill="#6B625C">Paid for out of the partner's</text>
+  <text x="80" y="452" font-size="11.5" fill="#6B625C">own prepaid balance.</text>
+
+  <path d="M348,315 L376,315" stroke="#1C1816" stroke-width="1.5" marker-end="url(#ar2)"/>
+
+  <!-- 2 FIRST IMPLEMENTATION -->
+  <rect x="386" y="150" width="290" height="360" rx="16" fill="#FFFFFF" stroke="#E4DED8"/>
+  <text x="416" y="196" font-size="14" font-weight="700" fill="#1C1816">2. FIRST IMPLEMENTATION</text>
+  <circle cx="531" cy="252" r="28" fill="#FDF0E8"/>
+  <path d="M519,262 v-16 M531,262 v-24 M543,262 v-10" stroke="#6B625C" stroke-width="3.2" stroke-linecap="round"/>
+  <rect x="416" y="304" width="230" height="36" rx="9" fill="#FDF0E8"/>
+  <text x="531" y="327" font-size="12.5" fill="#1C1816" text-anchor="middle">Live engagement, real client</text>
+  <rect x="416" y="348" width="230" height="36" rx="9" fill="#FDF0E8"/>
+  <text x="531" y="371" font-size="12.5" fill="#1C1816" text-anchor="middle">Structured handoff points</text>
+  <line x1="416" y1="398" x2="646" y2="398" stroke="#E4DED8"/>
+  <text x="416" y="422" font-size="11.5" fill="#6B625C">Capability transfers through</text>
+  <text x="416" y="440" font-size="11.5" fill="#6B625C">shared delivery.</text>
+
+  <path d="M684,315 L712,315" stroke="#1C1816" stroke-width="1.5" marker-end="url(#ar2)"/>
+
+  <!-- 3 PAIRING -->
+  <rect x="722" y="150" width="290" height="360" rx="16" fill="#FFFFFF" stroke="#E4DED8"/>
+  <text x="752" y="196" font-size="14" font-weight="700" fill="#1C1816">3. PAIRING</text>
+  <circle cx="867" cy="252" r="28" fill="#EDE8F5"/>
+  <circle cx="858" cy="252" r="9" fill="none" stroke="#6B625C" stroke-width="2.6"/>
+  <circle cx="876" cy="252" r="9" fill="none" stroke="#6B625C" stroke-width="2.6"/>
+  <text x="752" y="312" font-size="9.5" letter-spacing="1.4" fill="#89bd93">NEW PARTNER</text>
+  <rect x="752" y="320" width="230" height="52" rx="9" fill="#E8F3EA"/>
+  <text x="867" y="342" font-size="11.5" fill="#1C1816" text-anchor="middle">Runs configuration and</text>
+  <text x="867" y="360" font-size="11.5" fill="#1C1816" text-anchor="middle">client-facing delivery work</text>
+  <text x="752" y="390" font-size="9.5" letter-spacing="1.4" fill="#b09bd6">EXPERIENCED TEAM</text>
+  <rect x="752" y="398" width="230" height="52" rx="9" fill="#EDE8F5"/>
+  <text x="867" y="420" font-size="11.5" fill="#1C1816" text-anchor="middle">Technical oversight,</text>
+  <text x="867" y="438" font-size="11.5" fill="#1C1816" text-anchor="middle">governance, and escalation</text>
+  <text x="752" y="482" font-size="11.5" fill="#6B625C">The statement of work is split before kickoff.</text>
+
+  <path d="M1020,315 L1048,315" stroke="#1C1816" stroke-width="1.5" marker-end="url(#ar2)"/>
+
+  <!-- 4 CAPABILITY TRANSFER (terminal) -->
+  <rect x="1058" y="150" width="290" height="360" rx="16" fill="#7BAFD4"/>
+  <path d="M1058,160 L1348,160 L1348,494 A16,16 0 0,1 1332,510 L1074,510 A16,16 0 0,1 1058,494 Z" fill="#FFFFFF"/>
+  <rect x="1058" y="150" width="290" height="360" rx="16" fill="none" stroke="#E4DED8"/>
+  <text x="1088" y="196" font-size="14" font-weight="700" fill="#1C1816">4. CAPABILITY TRANSFER</text>
+  <circle cx="1203" cy="252" r="28" fill="#E4F0F7"/>
+  <path d="M1191,252 h22 M1205,244 l8,8 l-8,8" stroke="#7BAFD4" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1088" y="304" width="230" height="52" rx="9" fill="#7BAFD4"/>
+  <text x="1203" y="326" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">Becomes capable of</text>
+  <text x="1203" y="344" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">independent delivery</text>
+  <rect x="1088" y="364" width="230" height="36" rx="9" fill="#E4F0F7"/>
+  <text x="1203" y="387" font-size="12.5" fill="#1C1816" text-anchor="middle">Completes first service record</text>
+
+  <!-- Loop back 4→3 (blue dashed) — explicit polygon arrowhead, no marker -->
+  <path d="M1203,532 C1203,630 867,630 867,532"
+        stroke="#7BAFD4" stroke-width="2.5" fill="none" stroke-dasharray="7 6"/>
+  <polygon points="867,513 855,532 879,532" fill="#7BAFD4"/>
+</svg>
