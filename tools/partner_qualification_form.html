@@ -42,11 +42,26 @@
     font-style: italic;
   }
 
+  .doc-header .prep-note {
+    margin-top: 6px;
+    font-style: normal;
+    font-weight: bold;
+    color: #1C1816;
+  }
+
   .accent-rule {
     height: 2px;
     background: #FF4A00;
     width: 32px;
     margin: 0 0 32px 0;
+  }
+
+  .accent-rule-repeat {
+    display: none; /* only shown in print, at the top of pages 2/3 where a new section starts fresh */
+    height: 2px;
+    background: #FF4A00;
+    width: 32px;
+    margin: 0 0 24px 0;
   }
 
   .form-section {
@@ -135,6 +150,10 @@
     border-bottom-color: #FF4A00;
   }
 
+  .q-field.second-line {
+    margin-top: 10px;
+  }
+
   .form-note {
     font-size: 12px;
     color: #A79E97;
@@ -144,8 +163,18 @@
   }
 
   @media print {
-    body { background: #FFFFFF; padding: 24px; }
+    @page { size: A4; margin: 16mm 14mm; }
+    body { background: #FFFFFF; padding: 0; }
     .q-field { border-bottom: 1px solid #999; }
+    .question-row { padding: 13px 24px 11px; break-inside: avoid; page-break-inside: avoid; }
+    .q-label { margin-bottom: 7px; font-size: 14px; }
+    .q-field { font-size: 13.5px; padding: 5px 0 6px; }
+    .section-header { padding: 16px 24px; break-after: avoid; page-break-after: avoid; break-inside: avoid; page-break-inside: avoid; }
+    .doc-header { margin-bottom: 16px; padding-bottom: 10px; break-after: avoid; page-break-after: avoid; }
+    .doc-header .prep-note { margin-top: 4px; }
+    .accent-rule { margin-bottom: 14px; }
+    .form-section { break-inside: avoid; page-break-inside: avoid; margin-bottom: 24px; }
+    .accent-rule-repeat { display: block !important; break-after: avoid; page-break-after: avoid; break-inside: avoid; page-break-inside: avoid; }
   }
 </style>
 </head>
@@ -155,6 +184,7 @@
   <div class="doc-header">
     <h1>Partner Qualification Form</h1>
     <p>Profile. Expertise. Goals.</p>
+    <p class="prep-note">Fill in what you know before speaking with the prospect.</p>
   </div>
 
   <div class="accent-rule"></div>
@@ -184,76 +214,82 @@
         <input class="q-field" type="text">
       </div>
       <div class="question-row">
-        <label class="q-label">Annual company revenue</label>
+        <label class="q-label">What is your annual revenue?</label>
         <input class="q-field" type="text">
       </div>
       <div class="question-row">
-        <label class="q-label">Total employees</label>
+        <label class="q-label">How many people does your company employ?</label>
         <input class="q-field" type="text">
       </div>
       <div class="question-row">
-        <label class="q-label">Staff in consulting, implementation and support</label>
+        <label class="q-label">How many of them are involved in consulting, implementation and support?</label>
         <input class="q-field" type="text">
       </div>
       <div class="question-row">
-        <label class="q-label">Software development expertise — environments and languages</label>
+        <label class="q-label">Do you have software development expertise? In what environments and languages?</label>
         <input class="q-field" type="text">
+        <input class="q-field second-line" type="text">
       </div>
       <div class="question-row">
-        <label class="q-label">Staff in sales and marketing</label>
+        <label class="q-label">How many employees are in sales and marketing?</label>
         <input class="q-field" type="text">
       </div>
     </div>
   </div>
 
   <!-- Section 2: Expertise -->
+  <div class="accent-rule-repeat"></div>
   <div class="form-section">
     <div class="section-header lavender">
       <div class="section-number">2</div>
-      <span class="section-title">[Primary Solution Area] Expertise</span>
+      <span class="section-title">[primary solution area] Expertise</span>
       <span class="section-desc">Domain depth</span>
     </div>
     <div class="questions">
       <div class="question-row">
-        <label class="q-label">Experience in [primary solution area]?</label>
+        <label class="q-label">What experience do you have in [primary solution area]?</label>
+        <input class="q-field" type="text">
+        <input class="q-field second-line" type="text">
+      </div>
+      <div class="question-row">
+        <label class="q-label">What [primary solution area] solutions does your company currently implement?</label>
         <input class="q-field" type="text">
       </div>
       <div class="question-row">
-        <label class="q-label">Solutions currently implemented</label>
+        <label class="q-label">What are your current partnership statuses with other [primary solution area] vendors?</label>
+        <input class="q-field" type="text">
+        <input class="q-field second-line" type="text">
+      </div>
+      <div class="question-row">
+        <label class="q-label">What [primary solution area] system do you use internally?</label>
         <input class="q-field" type="text">
       </div>
       <div class="question-row">
-        <label class="q-label">Current partnership statuses with other [primary solution area] vendors</label>
+        <label class="q-label">How many people are involved in [primary solution area] implementation?</label>
         <input class="q-field" type="text">
       </div>
       <div class="question-row">
-        <label class="q-label">Existing clients in [primary solution area]</label>
+        <label class="q-label">How many existing clients do you have in [primary solution area]?</label>
         <input class="q-field" type="text">
       </div>
       <div class="question-row">
-        <label class="q-label">Key client names</label>
+        <label class="q-label">Who are some of your key clients in [primary solution area]?</label>
         <input class="q-field" type="text">
       </div>
       <div class="question-row">
-        <label class="q-label">Staff in [primary solution area] implementation</label>
+        <label class="q-label">How many people are involved in [primary solution area] sales and marketing?</label>
         <input class="q-field" type="text">
       </div>
       <div class="question-row">
-        <label class="q-label">Staff in [primary solution area] sales and marketing</label>
+        <label class="q-label">What is your lead generation model for [primary solution area]?</label>
         <input class="q-field" type="text">
-      </div>
-      <div class="question-row">
-        <label class="q-label">Lead generation model for [primary solution area]</label>
-        <input class="q-field" type="text">
-      </div>
-      <div class="question-row">
-        <label class="q-label">[Primary solution area] system used internally</label>
-        <input class="q-field" type="text">
+        <input class="q-field second-line" type="text">
       </div>
     </div>
   </div>
 
   <!-- Section 3: Goals -->
+  <div class="accent-rule-repeat"></div>
   <div class="form-section">
     <div class="section-header blue">
       <div class="section-number">3</div>
@@ -262,32 +298,36 @@
     </div>
     <div class="questions">
       <div class="question-row">
-        <label class="q-label">Business model of partnership with [vendor]</label>
-        <input class="q-field" type="text">
-      </div>
-      <div class="question-row">
         <label class="q-label">Why are you interested in partnering with [vendor]?</label>
         <input class="q-field" type="text">
+        <input class="q-field second-line" type="text">
       </div>
       <div class="question-row">
-        <label class="q-label">Revenue expectations from the partnership</label>
+        <label class="q-label">What business model are you looking for in a partnership with us?</label>
+        <input class="q-field" type="text">
+        <input class="q-field second-line" type="text">
+      </div>
+      <div class="question-row">
+        <label class="q-label">What are your revenue expectations?</label>
         <input class="q-field" type="text">
       </div>
       <div class="question-row">
-        <label class="q-label">Ready to allocate, train and certify an implementation team?</label>
+        <label class="q-label">Are you ready to allocate, train and enable a sales and marketing team to drive revenue?</label>
         <input class="q-field" type="text">
       </div>
       <div class="question-row">
-        <label class="q-label">Ready to allocate, train and certify a sales and marketing team?</label>
+        <label class="q-label">Will you be able to invest in marketing campaigns?</label>
         <input class="q-field" type="text">
       </div>
       <div class="question-row">
-        <label class="q-label">Existing team or new hire/outsource?</label>
+        <label class="q-label">Are you ready to allocate, train and certify an implementation team?</label>
         <input class="q-field" type="text">
+        <input class="q-field second-line" type="text">
       </div>
       <div class="question-row">
-        <label class="q-label">Able to invest in marketing campaigns with [vendor]?</label>
+        <label class="q-label">Will you use your existing implementation team, or hire/outsource additional resources?</label>
         <input class="q-field" type="text">
+        <input class="q-field second-line" type="text">
       </div>
     </div>
   </div>
