@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/status-active--build-89bd93?style=flat-square&labelColor=1C1816)
 ![Type](https://img.shields.io/badge/type-case%20study-b09bd6?style=flat-square&labelColor=1C1816)
-![Sections](https://img.shields.io/badge/sections-1%20of%208-ef9871?style=flat-square&labelColor=1C1816)
+![Sections](https://img.shields.io/badge/sections-2%20of%208-ef9871?style=flat-square&labelColor=1C1816)
 
 This documents the rebuild of an Americas partner program for a CRM/BPM platform moving from vendor-led implementation toward partner-led distribution and delivery.
 
@@ -29,7 +29,7 @@ The sections below document the program in build sequence. Read in order for con
 ## Repository structure
 
 - [`ideal-partner-profile`](sections/ideal-partner-profile.md) — how partners were profiled, segmented, qualified, and prioritized
-- `audit` — inherited-base audit and partner reset
+- [`audit`](sections/audit.md) — inherited-base audit and partner reset
 - `program-economics` — margins, marketplace, certification, and support terms
 - `recruitment` — competitive recruitment and acquisition engine
 - `channel-ops` — partner pipeline, enablement cadence, and internal collaboration
@@ -37,4 +37,4 @@ The sections below document the program in build sequence. Read in order for con
 - `results` — roster, coverage, partner mix, and reference relationships
 - `what-transfers` — operating logic
 - `graphics/` — operating-model graphics
-- `tools/` — sanitized qualification form for reuse
+- [`tools/`](tools/) — sanitized qualification form for reuse
