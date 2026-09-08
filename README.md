@@ -28,7 +28,7 @@ The sections below document the program in build sequence. Read in order for con
 
 ## Repository structure
 
-- [`ideal-partner-profile`](sections/ideal-partner-profile.md) — how partners were profiled, segmented, qualified, and prioritized
+- [`ideal-partner-profile`](sections/ideal-partner-profile.md) — partners profiled, segmented, qualified, and prioritized
 - [`audit`](sections/audit.md) — inherited-base audit and partner reset
 - `program-economics` — margins, marketplace, certification, and support terms
 - `recruitment` — competitive recruitment and acquisition engine
