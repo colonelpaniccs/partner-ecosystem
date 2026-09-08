@@ -36,5 +36,5 @@ The sections below document the program in build sequence. Read in order for con
 - `channel-delivery` — channel delivery architecture and engagement composition
 - `results` — roster, coverage, partner mix, and reference relationships
 - `what-transfers` — operating logic
-- `graphics/` — operating-model graphics
+- [`graphics/`](graphics/) — operating-model graphics
 - [`tools/`](tools/) — sanitized qualification form for reuse

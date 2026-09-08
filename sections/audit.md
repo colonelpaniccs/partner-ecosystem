@@ -1,4 +1,4 @@
-# Audit the Channel
+# 02 — Audit the Channel
 
 Evaluate your partner base against three questions: are they closing, can they deliver, and can they staff a practice as you grow.
 
